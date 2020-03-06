@@ -1,0 +1,93 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+.video-thumbnails a img {
+	opacity: 0.5;
+}
+.video-thumbnails a {
+	display: block;
+	border: 1px solid #0000001f;
+	
+}
+.video-thumbnails a:hover {
+	border-color: rgba(0,0,0,0.2);
+}
+.video-thumbnails {
+	padding: 0 20px;
+}
+.video-thumbnails a:hover img {
+	border-color: rgba(0,0,0,0.3);
+    opacity: 1;
+    transform: scale(1.2);
+}
+.box {
+	background: #fff;
+}
+.box-text .product-title {
+	font-size: 16px;
+}
+.loading:after {
+	animation: spin 500ms infinite linear;
+    border: 2px solid #fff;
+    border-radius: 32px;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    content: "";
+    display: block;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 16px;
+}
+.loading {
+    display: none;
+}
+.blog-post-inner .is-large {
+    font-size: 0.9em; 
+}
+.order-success{
+    float: right;
+    font-size: 12px;
+    margin: 0.5em 0;
+}
+.vc_grid-loading {
+    display: none;
+}
+.vc_custom_1530871875824 {
+    background-image: url(http://noithatotoluxury.com/resources/uploads/images/automatic/banner-noi-that-oto-luxury.jpg);
+}
+@media screen and (max-width: 768px){
+    #add-to-cart {
+        font-size: 12px;
+    }
+    span.price {
+        font-size: 13px;
+    }
+    .star-rating {
+        font-size: 9px;
+    }
+    .container-rating .count-rating{
+        font-size: 9px;
+    }
+    .order-success{
+        float: right;
+        font-size: 9px;
+        margin: 0.5em 0;
+    }
+}
