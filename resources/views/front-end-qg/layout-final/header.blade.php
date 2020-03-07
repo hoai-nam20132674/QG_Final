@@ -72,15 +72,20 @@
 
         <ul class="menu-right pull-right">
             <li><a id="search-overlay-menu-btn" rel="nofollow"><i aria-hidden="true" class="fa fa-search"></i></a></li>
-            
+            @php
+              $totalQuantity = Cart::getTotalQuantity();
+              $content = Cart::getContent();
+            @endphp
             <!-- Cart-->
-                            <li><a id="sidebar_toggle_btn">
-                        <div class="cart-icon">
-                            <i aria-hidden="true" class="fa fa-shopping-bag"><span class="cart-count">3</span></i>
-                            
-                        </div>
-                    </a></li>
-                        <li id="menu-btn" class="hidden-lg-up"><i class="fa fa-bars"></i></li>
+            <li>
+                <a id="sidebar_toggle_btn">
+                    <div class="cart-icon">
+                        <i aria-hidden="true" class="fa fa-shopping-bag"><span class="cart-count" cart-count="{{$totalQuantity}}">{{$totalQuantity}}</span></i>
+                        
+                    </div>
+                </a>
+            </li>
+            <li id="menu-btn" class="hidden-lg-up"><i class="fa fa-bars"></i></li>
         </ul>
     </div>
     <!-- End Header Container -->

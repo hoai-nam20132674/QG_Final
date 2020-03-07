@@ -60,68 +60,7 @@
     <div class="se-pre-con"></div>
     -->
     
-    <section id="sidebar-right" class="sidebar-menu sidebar-right">
-    <div class="cart-sidebar-wrap">
-        <div class="cart-widget-heading">
-            <h4>Giỏ hàng</h4>
-            <a href="javascript:void(0)" id="sidebar_close_icon" class="close-icon-white"></a>
-        </div>
-        <div class="cart-widget-content">
-            <div class="cart-widget-product">
-                <div class="cart-empty">
-                    <p>Không có sản phẩm trong giỏ hàng.</p>
-                </div>
-                <ul class="cart-product-item">
-                                            
-                        <li class="item-750632bb36f10046c2ea3285d1046a5f">
-                            <a href="#" class="product-image">
-                                <img src="https://www.velisa.vn/uploads/1/slider/1tui-da198-150x150.jpg" alt="Túi xách nữ da thật cao cấp Velisa 198"/></a>
-                            <div class="product-content">
-                                <!-- Item Linkcollateral -->
-                                <a class="product-link" href="#">Túi xách nữ da thật cao cấp Velisa 198</a>
-                                <span style="display: block;font-style: italic;color:#555555; font-size: .9em;">(Màu sắc:Xanh lam )</span>
-                                <!-- Item Cart Totle -->
-                                <div class="cart-collateral">
-                                    <span class="qty-cart">3</span>&nbsp;<span>&#215;</span>&nbsp;<span
-                                            class="product-price-amount">1,350,000</span>
-                                </div>
-                                <!-- Item Remove Icon -->
-                                <a data-id="750632bb36f10046c2ea3285d1046a5f"
-                                   data-url-remove-cart="https://www.velisa.vn/cart/remove/750632bb36f10046c2ea3285d1046a5f"
-                                   class="product-remove" href="javascript:void(0)">
-                                            <i class="fa fa-times-circle" aria-hidden="true"></i></a>
-                            </div>
-                        </li>
-                
-                                    <!-- Item -->
-                </ul>
-                <!-- End Cart Products -->
-            </div>
-        </div>
-        <!-- End Cart Product Content -->
-        <!-- Cart Footer -->
-        <div class="cart-widget-footer">
-            <div class="cart-footer-inner">
-                <!-- Cart Total -->
-                <h4 class="cart-total-hedding normal"><span>Tổng :</span><span
-                            class="cart-total-price">4,050,000 đ</span>
-                </h4>
-                <!-- Cart Total -->
-                <!-- Cart Buttons -->
-                <div class="cart-action-buttons">
-                    <a href="" class="view-cart btn btn-md btn-gray">Xem giỏ hàng</a>
-                    <form role="form" action="" method="post">
-                        <input type="hidden" name="_token" value="HQQMxD2FoPH15BwH4ZBJOMe17UaOAd2tpLpSN7iw">                        <button type="submit" name="checkout" id="checkout" class="btn btn-md btn-gray">
-                            Thanh toán
-                        </button>
-                    </form>
-                </div>
-                <!-- End Cart Buttons -->
-            </div>
-        </div>
-        <!-- Cart Footer -->
-    </div>
-</section>
+    @include('front-end-qg.layout-final.cart')
 <!--Overlay-->
 <div class="sidebar_overlay"></div>
     
